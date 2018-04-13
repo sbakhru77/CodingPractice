@@ -1,0 +1,25 @@
+<TestsData >
+<abc>testing</abc>
+    <Test id="SGN-0001">
+        <Description>Verify signup and delete a user</Description>
+        <included>Yes</included>
+        <ignoreReason>No reason to ignore TC</ignoreReason>
+        <userName>@gmail.com</userName>
+        <password>testmint</password>
+        <!--    -->
+    </Test>
+    <Test id="SGN-0002">
+        <Description>Validation of valid input for Email field</Description>
+        <included>Yes</included>
+        <ignoreReason>No reason to ignore TC</ignoreReason>
+        <userName>userName@anymail.com</userName>
+        <password>no_password</password>
+    </Test>
+    <Test id="SGN-0003">
+        <Description>Valid input Validation for ConfirmEmail field</Description>
+        <included>Yes</included>
+        <ignoreReason>No reason to ignore TC</ignoreReason>
+        <userName>validuserName@anymail.com</userName>
+        <password>no_password</password>
+    </Test>
+</TestsData>
