@@ -19,12 +19,12 @@ public class StackX {
 	}
 	
 	//pop an item to stack
-	public char pop() {
+	public int pop() {
 		return stackArr[top--];
 	}
 	
 	//peek or lookup the top item
-	public char peek() {
+	public int peek() {
 		return stackArr[top];
 	}
 	
